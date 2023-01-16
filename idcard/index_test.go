@@ -15,11 +15,6 @@ func Test_handleAdCodeData(t *testing.T) {
 	assert.Nil(t, err)
 }
 
-func Test_NewUserInfo(t *testing.T) {
-	fmt.Println(NewUserInfo("510232195508152414"))
-	fmt.Println(NewUserInfo("460022197112162510"))
-}
-
 func TestNewUserInfo(t *testing.T) {
 	//读取文件
 	file, err := os.Open("./sz_containerlog_202301121029.txt")
